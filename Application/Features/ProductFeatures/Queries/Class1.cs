@@ -8,5 +8,6 @@ namespace Application.Features.ProductFeatures.Queries
 {
     class Class1
     {
+        public int MyProperty { get; set; }
     }
 }
