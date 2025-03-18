@@ -27,6 +27,7 @@ builder.Services.AddApiVersioning(config =>
     config.ReportApiVersions = true;
 });
 #endregion
+
 var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
